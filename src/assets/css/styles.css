@@ -62,6 +62,7 @@ html {
      font-size: 24px;
      color: #242424;
      overflow: overlay;
+     margin-top: 20px;
    }
    
    .text-input:focus {
@@ -100,7 +101,7 @@ html {
    }
    
    .task {
-     margin: 0 5px auto;
+     margin: 20px 5px auto;
      position: relative;
      display: inline-block;
      flex-direction: column;
@@ -170,13 +171,14 @@ html {
    
    .close-button {
      position: absolute;
-     top: 3px;
+     top: 4px;
      right: 5px;
      font-size: 22px;
      cursor: pointer;
      border: none;
      color: gray;
      margin: 5px;
+    background-color: #fff;
    }
    
    .body {
